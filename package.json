@@ -1,7 +1,6 @@
 {
-  "name": "blog",
+  "name": "TEST-BE",
   "version": "1.0.0",
-  "description": "",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon --inspect src/index.js",
@@ -9,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nguyenqbaoduy/nodejs.git"
+    "url": "git+https://github.com/nguyenqbaoduy/test-BE.git"
   },
   "keywords": [
     "nodejs"
@@ -17,9 +16,9 @@
   "author": "nguyenqbaoduy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nguyenqbaoduy/nodejs/issues"
+    "url": "https://github.com/nguyenqbaoduy/test-BE/issues"
   },
-  "homepage": "https://github.com/nguyenqbaoduy/nodejs#readme",
+  "homepage": "https://github.com/nguyenqbaoduy/test-BE#readme",
   "dependencies": {
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6"
@@ -27,5 +26,6 @@
   "devDependencies": {
     "morgan": "^1.10.0",
     "nodemon": "^2.0.19"
-  }
+  },
+  "description": ""
 }
