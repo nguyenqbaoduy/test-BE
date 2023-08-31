@@ -4,6 +4,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ -o src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,11 +22,16 @@
   "homepage": "https://github.com/nguyenqbaoduy/test-BE#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "express-handlebars": "^6.0.6"
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^7.5.0",
+    "node-sass": "^9.0.0"
   },
   "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.19"
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.2"
   },
   "description": ""
 }
